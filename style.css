@@ -410,12 +410,13 @@ header nav ul a:hover{
 #btn-transporte a{
     text-decoration: none;
     color: white;
-    font-weight: bold;
+    font-weight: 400;
     transition: 0.5s;
 }
 #btn-transporte a:hover{
     color: black;
     transition: 0.5s;
+    font-weight: bold;
 }
 .btns-localizacao{
     display: block;
@@ -426,17 +427,18 @@ header nav ul a:hover{
     font-family: Poppins;
     font-weight: bold;
     border: none;
-    width: 14rem;
+    width: 12rem;
     height: 5rem;
     background-color: rgb(228, 203, 65);
     border-radius: 5rem;
-    margin-left: 0.8rem;
-    margin-top: 1rem;
+    margin-left: 4.5rem;
+    margin-top: 3rem;
     transition: 0.5s;
 }
 #btn-99taxi:hover{
-    background-color: rgb(116, 104, 39);
+    background-color: rgb(255, 255, 255);
     color: rgb(255, 255, 255);
+    box-shadow: 0 0 0.8rem white;
     transition: 0.35s;
 }
 #btn-99taxi a{
@@ -446,13 +448,13 @@ header nav ul a:hover{
     transition: 0.5s;
 }
 #btn-99taxi a:hover{
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     transition: 0.5s;
 }
 #btn-uber{
     font-family: Poppins;
-    border: solid 0.15rem white;
-    width: 14rem;
+    border: none;
+    width: 12rem;
     height: 5rem;
     background-color: rgb(0, 0, 0);
     color: white;
@@ -463,7 +465,7 @@ header nav ul a:hover{
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     transition: 0.35s;
-    font-weight: 600;
+    font-weight: bold;
     box-shadow: 0 0 0.8rem white;
 }
 #btn-uber a{
@@ -479,8 +481,8 @@ header nav ul a:hover{
     border: none;
     margin-top: rem;
     width: 29rem;
-    height: 4rem;
-    margin-top: 1rem;
+    height: 5rem;
+    margin-top: 2rem;
     border-radius: 5rem;
 
     background-color: rgb(255, 255, 255);
@@ -514,7 +516,7 @@ header nav ul a:hover{
     margin-left: 8rem;
     margin-top: 3rem;
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: 400;
     font-size: 1.2rem;
 }
 #btn-deliveryon:hover{
@@ -522,6 +524,7 @@ header nav ul a:hover{
     border-color: white;
     box-shadow: 0 0 0.8rem white;
     color: black;
+    font-weight: bold;
 }
 
 #btn-deliveryon a:hover{
@@ -540,7 +543,7 @@ header nav ul a:hover{
     margin-left: 7rem;
     margin-top: 3rem;
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: 400;
 }
 
 #btn-bliss:hover{
@@ -548,6 +551,7 @@ header nav ul a:hover{
     border-color: white;
     box-shadow: 0 0 0.8rem white;
     color: black;
+    font-weight: bold;
 }
 #btn-bliss a:hover{
     color: black;
@@ -574,40 +578,136 @@ header nav ul a:hover{
     border-radius: 10rem;
     transition: 1s;
 }
-.passaporte-img{
-    width: 100%;
-    height: 20rem;
-    margin-top: 1rem;
+.passaporte-box:hover{
+    box-shadow: 0.5rem 0.5rem 5rem rgba(0, 55, 100, 0.6),
+                -0.5rem -0.5rem 5rem rgba(0, 100, 0, 0.6);
+    transition: 0.35s;
 }
+.passaporte-img{
+    width: 30%;
+    height: 12rem;
+    margin-left: 35%;
+}
+
 .passaporte-title{
+    font-size: 5rem;
+    font-weight: 200;
+    text-align: center;
+}
+.passaporte-title b{
+    font-size: 2.4rem;
+    font-weight: 600;
+    letter-spacing: 0.10rem;
+    text-align: center;
+    color: rgb(0, 255, 0);
+    transition: 0.5s;
+    text-transform: uppercase
+}
+.passaporte-description{
+    margin-bottom: 15%;
+    margin-left: 15%;
+    font-size: 1.4rem;
+    font-weight: 600;
+    letter-spacing: 0.10rem;
+    margin-top: 5%;
+    text-align: left;
+    text-transform: uppercase;
+}
+.passaporte-price{
     font-size: 3.5rem;
     font-weight: 600;
     letter-spacing: 0.10rem;
     margin-top: 5%;
     text-align: center;
 }
-.passaporte-dias{
-    font-size: 2.5rem;
-    font-weight: 600;
-    letter-spacing: 0.10rem;
-    margin-top: 5%;
-    text-align: center;
-}
-.passaporte-data{
-    font-size: 2.5rem;
-    font-weight: 600;
-    letter-spacing: 0.10rem;
-    margin-top: 5%;
-    text-align: center;
-}
-.passaporte-price{
-    font-size: 2.5rem;
-    font-weight: 600;
-    letter-spacing: 0.10rem;
-    margin-top: 5%;
-    text-align: center;
-}
 #btn-passaporte{
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-weight: 300;
+    letter-spacing: .15rem;
+    text-transform: uppercase;
+
+    width: 28rem;
+    height: 6rem;
+    margin-top: 3rem;
+    margin-left: 5rem;
+
+    background-color: rgba(0, 0, 0, 0);
+    
+    color: white;
+    
+    cursor: pointer;
+    border-radius: 50rem;
+    border: 0.22rem solid green;
+
+    transition: 0.35s;
+}
+#btn-passaporte:hover{
+    color: rgb(0, 0, 0);
+    font-size: 1.45rem;
+    font-weight: 800;
+    background-color: rgb(0, 255, 0);
+    width: 28.5rem;
+    height: 6.5rem;
+    margin-left: 4.5rem;
+    box-shadow: 0 0 1rem rgb(0, 255, 0);
+    transition: 0.35s;
+    border: none;
+}
+
+
+.ingresso-div{
+    height: 100vh;
+    color: white;
+    background: linear-gradient(to top, #040029,#041806)
+}
+#ingresso{
+    display: flex;
+}
+.ingresso-box{
+    width: 45rem;
+    height: 70rem;
+    padding: 1.5%;
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)) ;
+    margin-left: 20%;
+    margin-top: 10%;
+    border-radius: 10rem;
+    transition: 1s;
+}
+.ingresso-img{
+    width: 100%;
+    height: 20rem;
+    margin-top: 1rem;
+}  
+.ingresso-title{
+    font-size: 3.5rem;
+    font-weight: 600;
+    letter-spacing: 0.10rem;
+    margin-top: 5%;
+    text-align: center;
+}
+.ingresso-dias{
+    font-size: 2.5rem;
+    font-weight: 600;
+    letter-spacing: 0.10rem;
+    margin-top: 5%;
+    text-align: center;
+}
+.ingresso-data{
+    font-size: 2.5rem;
+    font-weight: 600;
+    letter-spacing: 0.10rem;
+    margin-top: 5%;
+    text-align: center;
+}
+.ingresso-price{
+    font-size: 2.5rem;
+    font-weight: 600;
+    letter-spacing: 0.10rem;
+    margin-top: 5%;
+    text-align: center;
+}
+#btn-ingresso{
     font-family: Poppins;
     font-size: 1.1rem;
     font-weight: 600;
@@ -630,18 +730,12 @@ header nav ul a:hover{
     transition: 0.8s;
 }
 
-.ingresso-div{
-    height: 100vh;
-    color: white;
-    background: linear-gradient(to top, #040029,#041806)
-
-}
 footer{
     position: end;
     text-transform: uppercase;
     color: white;
     display: flex;
-    background-color: rgb(3, 19, 1);
+    background-color: rgb(1, 7, 19);
     width: 100%;
     height: 5vh;
     text-align: center;
