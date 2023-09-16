@@ -230,7 +230,7 @@ header nav ul a:hover{
     color: white;
     
     cursor: pointer;
-    border-radius: 50rem;
+    border-radius: 60rem;
     border: 0.2rem solid green;
 
     transition: 0.8s;
